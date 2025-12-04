@@ -8,7 +8,7 @@ import Home from './routes/Home.jsx';
 function App() {
 
   return (
-    <div className="min-w-full"> 
+    <div className="w-full"> 
       <Router>
           <Routes>
             <Route path='/' element={<Layout><Home /></Layout>} />
